@@ -1,4 +1,6 @@
-import java.util.Arrays;
+// Tanner Elston, CSD-402, 1/30/2026
+
+import java.util.Arrays; // https://www.geeksforgeeks.org/java/array-class-in-java/
 
 public class SingleDimensionalArrays {
     public static void main(String[] args) {
@@ -27,7 +29,7 @@ public class SingleDimensionalArrays {
         System.out.println("Average = " + average(doubleArray));
     }
 
-    // Methods to calculate averages for each primitive array type
+    // Methods to calculate averages for each primitive array type -src: https://www.w3schools.com/java/java_arrays_loop.asp
     public static short average(short[] array) {
 
         int sum = 0;
